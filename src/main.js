@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+router.push('/goods')
 Vue.config.productionTip = false
 
 Vue.directive('rainbow-background', {
