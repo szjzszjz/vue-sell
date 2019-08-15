@@ -6,6 +6,18 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.directive('rainbow-background', {
+  bind (element, binding, vNode) {
+    element.style.backgroundColor = '#' + Math.random().toString(16).slice(2, 8)
+  }
+})
+
+Vue.directive('rainbow-text', {
+  bind (element, binding, vNode) {
+    element.style.color = '#' + Math.random().toString(16).slice(2, 8)
+  }
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

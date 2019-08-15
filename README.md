@@ -2,6 +2,14 @@
 
 > 移动端外卖APP模块
 
+## plugins  
+### 1、stylus  
+```
+npm install stylus --save   
+npm install stylus-loader --save   
+npm run start  
+``` 
+
 ## Build Setup
 
 ``` bash
